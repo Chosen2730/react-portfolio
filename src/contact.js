@@ -5,7 +5,7 @@ const Contact = () => {
     <>
       <main className='contact-main' id='contact'>
         <div className='form-div'>
-          <h1>Let's get along</h1>
+          <h1>Let's get along!</h1>
           <p className='cont'>
             Have a website you will like to build or a design you'll like to
             own?

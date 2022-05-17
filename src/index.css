@@ -315,6 +315,9 @@ html {
 .testimonial-content p {
   font-size: 1rem;
 }
+.testimonial-content {
+  width: 100%;
+}
 .image-cont img {
   width: 250px;
   height: 250px;
