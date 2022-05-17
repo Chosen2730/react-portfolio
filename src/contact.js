@@ -33,7 +33,9 @@ const Contact = () => {
           ></iframe>
         </div>
       </main>
-      <div className='copyright'>&copy; 2022 Simon I.R. All Right Reserved</div>
+      <div className='copyright'>
+        &copy; {new Date().getFullYear()} Simon I.R. All Right Reserved
+      </div>
     </>
   );
 };
