@@ -405,6 +405,9 @@ textarea {
   width: 100%;
   text-align: center;
   color: #fff;
-  font-size: 1rem;
   padding: 2rem;
+}
+.copyright p,
+.cont {
+  font-size: 1rem;
 }
