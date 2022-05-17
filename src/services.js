@@ -6,7 +6,7 @@ import { skill } from "./data";
 
 const Services = () => {
   return (
-    <main className='service-main'>
+    <main className='service-main' id='service'>
       <h1 className='service-header'>Services</h1>
       <hr className='underline' />
       <div className='service-cont'>
@@ -50,7 +50,10 @@ const Services = () => {
             );
           })}
         </div>
-        <a href='' className='resume'>
+        <a
+          href='https://docs.google.com/document/d/13WFgVRbY2-Fcgrl18msACLGMiI3fbo7-d47SBtr8ZEk/edit?usp=sharing'
+          className='resume'
+        >
           View Resume
         </a>
       </div>

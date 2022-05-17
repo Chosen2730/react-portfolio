@@ -21,9 +21,15 @@ const Navigation = ({ nav, setNav }) => {
         >
           <div className='nav-links'>
             <ul className='links'>
-              <li>Services</li>
-              <li>Projects</li>
-              <li>Contact</li>
+              <li>
+                <a href='#service'>Services</a>
+              </li>
+              <li>
+                <a href='#project'>Projects</a>
+              </li>
+              <li>
+                <a href='#contact'>Contact</a>
+              </li>
             </ul>
           </div>
         </div>

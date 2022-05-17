@@ -14,10 +14,15 @@ const Hero = () => {
           </p>
           <div className='btn-container'>
             <button className='btn btn-view'>
-              <h5>View my projects</h5> <BsFillEyeFill className='eye' />
+              <h5>
+                <a href='#project'> View my projects</a>
+              </h5>
+              <BsFillEyeFill className='eye' />
             </button>
             <button className='btn btn-hire'>
-              <h5> Hire me</h5>
+              <h5>
+                <a href='#contact'>Hire me</a>{" "}
+              </h5>
               <BsArrowRight />
             </button>
           </div>

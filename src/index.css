@@ -60,17 +60,19 @@ html {
 .social {
   margin-left: auto;
 }
-.links li,
+.links li a,
 .icons li {
   padding: 0.75rem 1rem;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
+  text-decoration: none;
+  color: #fff;
 }
-.links li:hover,
+.links li a:hover,
 .icons li a:hover {
   color: #d1cfcf;
 }
-.links li:hover {
+.links li a:hover {
   border: 2px solid #fff;
 }
 
@@ -95,7 +97,7 @@ html {
 }
 .second-hero {
   background: linear-gradient(rgba(2, 33, 62, 0.9), rgba(2, 33, 62, 0.9)),
-    url("./Images/hero.jpeg");
+    url("./Images/back.jpg");
   background-position: center;
   background-repeat: none;
   background-size: cover;
@@ -133,6 +135,10 @@ html {
 }
 .btn-hire {
   margin: 0 1rem;
+}
+.btn a {
+  color: #fff;
+  text-decoration: none;
 }
 
 /* SERVICES COMPONENTS */
@@ -212,7 +218,7 @@ html {
 /* PROJECT COMPONENT */
 .project-main {
   clip-path: polygon(0% 5%, 100% 0%, 100% 100%, 0 100%);
-  background: linear-gradient(rgba(2, 33, 62, 1), rgba(2, 33, 62, 0.9)),
+  background: linear-gradient(rgba(2, 33, 62, 0.99), rgba(2, 33, 62, 0.99)),
     url("./Images/pro.jpg");
   background-position: center;
   background-repeat: none;
@@ -232,6 +238,30 @@ html {
 }
 .project-cont {
   width: 100%;
+}
+.project-cont .service-info {
+  color: rgb(201, 201, 201);
+  margin-bottom: 2rem;
+}
+.project-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.project-image {
+  height: 300px;
+  position: relative;
+}
+.project-image::after {
+  content: "";
+  position: absolute;
+  background: rgba(2, 33, 62, 0.6);
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
 }
 .project-cont h2 {
   font-size: 1.25rem;
@@ -255,6 +285,7 @@ html {
   font-size: 0.625rem;
   display: flex;
   align-items: center;
+  text-transform: uppercase;
 }
 .project-cont a {
   text-decoration: none;
@@ -368,6 +399,9 @@ html {
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
   align-items: center;
+}
+.form-div {
+  width: 100%;
 }
 .form-div h1 {
   font-size: 1.5rem;
