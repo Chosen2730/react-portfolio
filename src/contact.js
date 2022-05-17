@@ -34,7 +34,7 @@ const Contact = () => {
         </div>
       </main>
       <div className='copyright'>
-        &copy; {new Date().getFullYear()} Simon I.R. All Right Reserved
+        <p>&copy; {new Date().getFullYear()} Simon I.R. All Right Reserved</p>
       </div>
     </>
   );
