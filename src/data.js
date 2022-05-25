@@ -73,6 +73,6 @@ export const skill = [
   { image: "Images/css.png", skill: "CSS3" },
   { image: "Images/html.png", skill: "HTML5" },
   { image: "Images/git.png", skill: "Git" },
-  { image: "Images/vs.png", skill: "Visual Studio Code" },
+  { image: "Images/vs.png", skill: "VS Code" },
   { image: "Images/typescript.png", skill: "Typescript" },
 ];

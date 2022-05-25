@@ -112,7 +112,6 @@
     background-size: cover;
     background-attachment: fixed;
   }
-
   .skill-icon-cont {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -173,5 +172,17 @@
   }
   .image-cont {
     display: none;
+  }
+  .skill-icon-cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+}
+@media (max-width: 313px) {
+  .skill-icon-cont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
   }
 }
