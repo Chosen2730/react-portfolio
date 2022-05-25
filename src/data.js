@@ -66,10 +66,13 @@ export const testimonial = [
 ];
 
 export const skill = [
-  "Images/js.png",
-  "Images/React.webp",
-  "Images/jq.png",
-  "Images/bs.png",
-  "Images/css.png",
-  "Images/html.png",
+  { image: "Images/js.png", skill: "javascript" },
+  { image: "Images/React.webp", skill: "React JS" },
+  { image: "Images/jq.png", skill: "JQuery" },
+  { image: "Images/bs.png", skill: "Bootsrap" },
+  { image: "Images/css.png", skill: "CSS3" },
+  { image: "Images/html.png", skill: "HTML5" },
+  { image: "Images/git.png", skill: "Git" },
+  { image: "Images/vs.png", skill: "Visual Studio Code" },
+  { image: "Images/typescript.png", skill: "Typescript" },
 ];

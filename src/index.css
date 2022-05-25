@@ -204,6 +204,13 @@ html {
   border-radius: 10px;
   box-shadow: 0 0 30px #d1cfcf;
   padding: 2rem;
+  text-align: center;
+  text-transform: capitalize;
+  transition: all 0.5s ease-in-out;
+}
+.skill-icon:hover {
+  box-shadow: 0 0 30px #939393;
+  transform: scale(0.9);
 }
 .resume {
   border-style: none;
