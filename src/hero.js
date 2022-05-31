@@ -21,7 +21,7 @@ const Hero = () => {
             </button>
             <button className='btn btn-hire'>
               <h5>
-                <a href='#contact'>Hire me</a>{" "}
+                <a href='#contact'>Hire me</a>
               </h5>
               <BsArrowRight />
             </button>
