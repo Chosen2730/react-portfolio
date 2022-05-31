@@ -1,6 +1,6 @@
 import React from "react";
 import { BsBoxArrowUpRight } from "react-icons/bs";
-import { data } from "./data";
+import { data } from "./../data";
 
 const Projects = () => {
   return (

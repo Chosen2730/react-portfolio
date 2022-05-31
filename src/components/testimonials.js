@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
-import { testimonial } from "./data";
+import { testimonial } from "../data";
 
 const Testimonials = () => {
   const [value, setValue] = useState(0);

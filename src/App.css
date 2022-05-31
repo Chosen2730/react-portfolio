@@ -1,38 +1,191 @@
-.App {
-  text-align: center;
+@media screen and (max-width: 925px) {
+  body {
+    display: none;
+  }
+  .btn {
+    font-size: 1rem;
+  }
+  #testimonial {
+    width: 90%;
+  }
+  .testimonial-header {
+    font-size: 2rem;
+    color: #0085ff;
+    margin: 2rem 0;
+  }
+  .service h2 {
+    margin: 1rem 0;
+    font-size: 1rem;
+  }
+  .service-info {
+    font-size: 0.85rem;
+    color: #808080cc;
+  }
 }
+@media (max-width: 786px) {
+  .main-nav {
+    display: block;
+    align-items: baseline;
+  }
+  .show-back {
+    background: rgba(0, 0, 0, 0.9);
+  }
+  .toggle {
+    display: block;
+    margin-left: auto;
+  }
+  .nav-left {
+    width: 100%;
+  }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  .links li,
+  .icons li {
+    padding: 0.75rem 0rem;
+  }
+  .icons li {
+    margin-right: 1rem;
+  }
+  .social {
+    margin-left: 0;
+  }
+  .nav-right,
+  .nav-mid {
+    display: none;
+  }
+  .show-nav-right,
+  .show-nav-mid {
+    display: flex;
+  }
+  .links {
+    flex-direction: column;
+  }
+  .service-cont {
+    grid-template-columns: 1fr 1fr;
+  }
+  .one,
+  .three {
+    transform: translateY(0);
+  }
+  .project-main {
+    padding: 12rem 5rem;
+  }
+  .project-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .testimonial-cont {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  .image-cont {
+    margin: 0 auto;
+  }
+  .icon-dir {
+    font-size: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .image-cont::after {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: translate(60%, -35px);
+  }
+  .contact-main {
+    grid-template-columns: 1fr;
+  }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 684px) {
+  .hero-div {
+    width: 100%;
+  }
+  .second-hero {
+    display: none;
+  }
+  .first-hero {
+    background: linear-gradient(rgba(2, 33, 62, 0.9), rgba(2, 33, 62, 0.9)),
+      url("./Images/back.jpg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .skill-icon-cont {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  .skill-icon {
+    border-radius: 10px;
+    box-shadow: 0 0 30px #d1cfcf;
+    padding: 1rem;
+  }
+  .service-cont {
+    grid-template-columns: 1fr;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 425px) {
+  .navbrand {
+    font-size: 1.25rem;
   }
-  to {
-    transform: rotate(360deg);
+  h1 {
+    font-size: 1.25rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .service-header {
+    font-size: 1.25rem;
+  }
+  .btn,
+  .resume {
+    font-size: 0.85rem;
+  }
+  .project-main {
+    clip-path: polygon(0% 2%, 100% 0%, 100% 100%, 0 100%);
+
+    padding: 8rem 2rem 5rem;
+  }
+  .image-cont::after {
+    transform: translate(-5%, -20%);
+  }
+  .testimonial-header {
+    font-size: 1.2rem;
+
+    margin: 0 0 20%;
+  }
+  .form-div h1 {
+    font-size: 1.2rem;
+  }
+  .copyright {
+    font-size: 0.85rem;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .role-cont {
+    grid-template-columns: 1fr 1fr;
+  }
+  .image-cont {
+    display: none;
+  }
+  .skill-icon-cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+}
+@media (max-width: 313px) {
+  .skill-icon-cont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
   }
 }

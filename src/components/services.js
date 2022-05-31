@@ -2,7 +2,7 @@ import React from "react";
 import { MdOutlineGraphicEq } from "react-icons/md";
 import { SiNodedotjs } from "react-icons/si";
 import { FcAdvertising } from "react-icons/fc";
-import { skill } from "./data";
+import { skill } from "./../data";
 
 const Services = () => {
   return (

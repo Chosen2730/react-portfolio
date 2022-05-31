@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Hero from "./hero";
-import Navigation from "./navigation";
-import Services from "./services";
-import Projects from "./projects";
-import Testimonials from "./testimonials";
-import Contact from "./contact";
+import Hero from "./components/hero";
+import Navigation from "./components/navigation";
+import Services from "./components/services";
+import Projects from "./components/projects";
+import Testimonials from "./components/testimonials";
+import Contact from "./components/contact";
 
 function App() {
   const [nav, setNav] = useState(true);
