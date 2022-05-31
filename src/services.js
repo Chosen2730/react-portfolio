@@ -43,11 +43,10 @@ const Services = () => {
         <hr className='underline' />
         <div className='skill-icon-cont'>
           {skill.map((item, index) => {
-            const { image, skill } = item;
+            const { image } = item;
             return (
               <div key={index} className='skill-icon'>
                 <img src={image} alt='' />
-                {/* <h5>{skill}</h5> */}
               </div>
             );
           })}
