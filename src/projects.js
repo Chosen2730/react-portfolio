@@ -16,7 +16,7 @@ const Projects = () => {
               <h6 className='little-info'>Decription</h6>
               <p className='service-info'>{desc}</p>
               <div className='project-image'>
-                <img src={image} alt='' srcset='' />
+                <img src={image} alt='' srcSet='' />
               </div>
               <h6 className='little-info'>Role</h6>
               <div className='role-cont'>

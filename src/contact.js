@@ -23,7 +23,7 @@ const Contact = () => {
             <input className='submit' type='button' value='Send Message' />
           </form>
         </div>
-        <div className='map-cont'>
+        {/* <div className='map-cont'>
           <iframe
             title='map'
             src='https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15834.213685088695!2d3.3691251500000003!3d7.177506499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1652644464438!5m2!1sen!2sng'
@@ -31,7 +31,7 @@ const Contact = () => {
             height='450'
             style={{ border: 0 }}
           ></iframe>
-        </div>
+        </div> */}
       </main>
       <div className='copyright'>
         <p>&copy; {new Date().getFullYear()} Simon I.R. All Right Reserved</p>
