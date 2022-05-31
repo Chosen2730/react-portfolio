@@ -47,7 +47,7 @@ const Services = () => {
             return (
               <div key={index} className='skill-icon'>
                 <img src={image} alt='' />
-                <h5>{skill}</h5>
+                {/* <h5>{skill}</h5> */}
               </div>
             );
           })}
