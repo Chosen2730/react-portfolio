@@ -29,7 +29,7 @@ const Services = () => {
         </div>
         <div className='service three'>
           <FcAdvertising className='icon' />
-          <h2>Digital Marketting</h2>
+          <h2>Digital Marketting (In training...)</h2>
           <p className='service-info'>
             A business or venture cannot prosper if the audience is not right. I
             create a channel on the web where you can reach out your service,

@@ -6,11 +6,15 @@ const Hero = () => {
     <>
       <main className='hero'>
         <div className='hero-div first-hero'>
+          <h5>- Hello,</h5>
           <h1 className='name'>I'm Simon</h1>
           <p className='short_info'>
-            Web Designer and Developer who is also good in professional Graphics
-            design. My creativities enhances business growth in the labour
-            market.
+            I am a Junior web developer with skills in HTML5, CSS3, Javascript
+            using some cool ES6 features, Bootstrap, JQuery, Visual Studio Code,
+            Git & Version control, and React JS. In the space of 2+ years, I
+            have collaborated with other frontend developers and backend
+            developers to build cool projects. As a side skill, I use Photoshop
+            and Corel Draw to create nice graphics designs.
           </p>
           <div className='btn-container'>
             <button className='btn btn-view'>

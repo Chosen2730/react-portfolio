@@ -1,4 +1,12 @@
 @media (max-width: 925px) {
+  .project-main {
+    width: 85%;
+  }
+  .project-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 2rem;
+  }
   .btn {
     font-size: 1rem;
   }
@@ -63,8 +71,9 @@
   .three {
     transform: translateY(0);
   }
-  .project-main {
-    padding: 12rem 5rem;
+  #project {
+    clip-path: polygon(0% 2%, 100% 0%, 100% 100%, 0 100%);
+    padding: 7rem 0rem;
   }
   .project-div {
     display: grid;
@@ -98,6 +107,9 @@
   }
 }
 @media (max-width: 684px) {
+  .project-main {
+    width: 90%;
+  }
   .hero-div {
     width: 100%;
   }
@@ -143,11 +155,6 @@
   .btn,
   .resume {
     font-size: 0.85rem;
-  }
-  .project-main {
-    clip-path: polygon(0% 2%, 100% 0%, 100% 100%, 0 100%);
-
-    padding: 8rem 2rem 5rem;
   }
   .image-cont::after {
     transform: translate(-5%, -20%);

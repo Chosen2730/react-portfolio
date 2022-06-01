@@ -8,8 +8,8 @@
 body {
   background: #e2f0fc;
 }
-.niii {
-  color: red;
+h5 {
+  font-size: 1rem;
 }
 html {
   scroll-behavior: smooth;
@@ -231,21 +231,20 @@ html {
   display: inline-block;
 }
 /* PROJECT COMPONENT */
-.project-main {
+#project {
   clip-path: polygon(0% 5%, 100% 0%, 100% 100%, 0 100%);
-  background: linear-gradient(rgba(2, 33, 62, 0.99), rgba(2, 33, 62, 0.99)),
-    url("./Images/pro.jpg");
-  background-position: center;
-  background-repeat: none;
-  background-size: cover;
+  background-color: #002c54;
   color: #fff;
-  background-attachment: fixed;
-  padding: 10rem 2rem;
+  padding: 10rem 0rem;
+}
+.project-main {
+  width: 75%;
+  margin: 0 auto;
 }
 .project-div {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  gap: 2rem 5rem;
 }
 .project-main h1 {
   font-size: 2rem;
@@ -260,23 +259,14 @@ html {
 }
 .project-image img {
   width: 100%;
-  height: 300px;
+  height: 100%;
   object-fit: cover;
   border-radius: 10px;
+  background: #05c5ff82;
 }
 .project-image {
   height: 300px;
   position: relative;
-}
-.project-image::after {
-  content: "";
-  position: absolute;
-  background: rgba(2, 33, 62, 0.6);
-  top: 0;
-  left: 0;
-  z-index: 3;
-  width: 100%;
-  height: 100%;
 }
 .project-cont h2 {
   font-size: 1.25rem;

@@ -1,8 +1,8 @@
 export const data = [
   {
     title: "TACSFON FUNAAB",
-    desc: "A church website reflecting the church details, social media, services and managment details.",
-    role: ["web design", "HTML/CSS", "JS"],
+    desc: "A multiple page website. Nav and footers among many other features are loaded dynamically using Javascript. ",
+    role: ["web design", "HTML/CSS", "JS", "Bootstrap"],
     url: "https://tacsfonfunaab.org",
     image: "Images/tacn.png",
   },
@@ -12,6 +12,20 @@ export const data = [
     role: ["HTML/CSS", "ReactJS"],
     url: "https://chosen2730.github.io/CompositeCalc/",
     image: "Images/calc.png",
+  },
+  {
+    title: "Netflix (Clone)",
+    desc: "A clone of Netflix landing page. Components include a FAQ section which brings out answers on questions on click.",
+    role: ["HTML/CSS", "ReactJS"],
+    url: "https://netfleeks.netlify.app/",
+    image: "Images/net.png",
+  },
+  {
+    title: "Todo App",
+    desc: "A Todo list which has two sections, a Todo list and completed items. Items on the completed section are added dynamically once a user clicks done. React useReducer hook was used to achieve this fucntion",
+    role: ["HTML/CSS", "ReactJS"],
+    url: "https://reacttodopro.netlify.app/",
+    image: "Images/todo.png",
   },
 ];
 
@@ -40,4 +54,6 @@ export const skill = [
   { image: "Images/git.png", skill: "Git" },
   { image: "Images/vs.png", skill: "VS Code" },
   { image: "Images/typescript.png", skill: "Typescript" },
+  { image: "Images/ps.png", skill: "Photoshop" },
+  { image: "Images/corel.jpg", skill: "Corel Draw" },
 ];
