@@ -1,4 +1,6 @@
 import React from "react";
+import { BsWhatsapp, BsTwitter, BsGithub, BsLinkedin } from "react-icons/bs";
+import { SiGmail } from "react-icons/si";
 
 const Contact = () => {
   return (
@@ -8,33 +10,43 @@ const Contact = () => {
           <h1>Let's get along!</h1>
           <p className='cont'>
             Have a website you will like to build or a design you'll like to
-            own?
+            own? <br /> Reach out to me via my social media handles below;
           </p>
-          <form action=''>
-            <input type='text' placeholder='Name' />
-            <input type='email' placeholder='Email' />
-            <textarea
-              name=''
-              placeholder='message'
-              id=''
-              cols='30'
-              rows='10'
-            ></textarea>
-            <input className='submit' type='button' value='Send Message' />
-          </form>
         </div>
-        {/* <div className='map-cont'>
-          <iframe
-            title='map'
-            src='https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15834.213685088695!2d3.3691251500000003!3d7.177506499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1652644464438!5m2!1sen!2sng'
-            width='600'
-            height='450'
-            style={{ border: 0 }}
-          ></iframe>
-        </div> */}
+        <div className='socia'>
+          <ul className='icons'>
+            <li>
+              <a href='https://wa.me/2348132157321'>
+                <BsWhatsapp />
+              </a>
+            </li>
+            <li>
+              <a href='https://twitter.com/Robinson_Simon_'>
+                <BsTwitter />
+              </a>
+            </li>
+            <li>
+              <a href='https://github.com/Chosen2730'>
+                <BsGithub />
+              </a>
+            </li>
+            <li>
+              <a href='https://www.linkedin.com/in/robinson-simon-a35bb9194/'>
+                <BsLinkedin />
+              </a>
+            </li>
+            <li>
+              <a href='mailto:patiencesimoniseoluwa@gmail.com'>
+                <SiGmail />
+              </a>
+            </li>
+          </ul>
+        </div>
       </main>
       <div className='copyright'>
-        <p>&copy; {new Date().getFullYear()} Simon I.R. All Right Reserved</p>
+        <p className='copy_p'>
+          &copy; {new Date().getFullYear()} Simon I.R. All Right Reserved
+        </p>
       </div>
     </>
   );

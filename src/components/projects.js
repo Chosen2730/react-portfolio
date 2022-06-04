@@ -14,7 +14,7 @@ const Projects = () => {
             return (
               <div key={index} className='project-cont'>
                 <h2>{title}</h2>
-                <h6 className='little-info'>Decription</h6>
+                <h6 className='little-info'>Description</h6>
                 <p className='service-info'>{desc}</p>
                 <div className='project-image'>
                   <img src={image} alt='' srcSet='' />

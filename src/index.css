@@ -2,10 +2,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
-  line-height: 1.5;
 }
 body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
   background: #e2f0fc;
 }
 h5 {
@@ -111,6 +111,7 @@ html {
 .short_info {
   color: #ffffffb6;
   font-size: 1rem;
+  line-height: 1.8;
 }
 .btn-container {
   display: flex;
@@ -201,7 +202,6 @@ html {
 }
 .skill-icon img {
   width: 3rem;
-  height: 3rem;
   object-fit: cover;
 }
 .skill-icon h5 {
@@ -209,7 +209,6 @@ html {
 }
 .skill-icon {
   border-radius: 10px;
-  box-shadow: 0 0 30px #d1cfcf;
   padding: 2rem;
   text-align: center;
   text-transform: capitalize;
@@ -404,12 +403,16 @@ html {
   padding: 5rem 2rem;
   color: #fff;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  grid: 1fr 1fr;
   align-items: center;
 }
 .form-div {
   width: 100%;
+}
+.contact-main .links li,
+.icons li {
+  padding: 0.75rem 0rem;
+  margin-right: 1rem;
 }
 .form-div h1 {
   font-size: 1.5rem;
@@ -443,13 +446,14 @@ textarea {
 }
 .copyright {
   background: #002c54;
-
   width: 100%;
   text-align: center;
   color: #fff;
   padding: 2rem;
 }
-.copyright p,
 .cont {
   font-size: 1rem;
+}
+.copy_p {
+  font-size: 0.75rem;
 }

@@ -12,9 +12,12 @@ const Testimonials = () => {
         let newValue = value + 1;
         return checkIndex(newValue);
       });
-      return () => clearInterval(addInterval);
     }, 5000);
-  }, []);
+
+    return () => {
+      clearInterval(addInterval);
+    };
+  }, [value]);
 
   const checkIndex = (index) => {
     if (index > testimonial.length - 1) {
