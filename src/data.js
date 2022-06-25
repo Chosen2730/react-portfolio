@@ -1,14 +1,14 @@
 export const data = [
   {
     title: "Connected Award Website",
-    desc: "A website for voting for candidates who merit some tech awards.",
+    desc: "A website for voting candidates who merit some tech awards of different categories. Page contains search form to easier find candidates on the list of nominees.",
     role: ["React", "HTML/CSS"],
     url: "https://connectaward.vercel.app/",
     image: "Images/connect.png",
   },
   {
     title: "Quiz App",
-    desc: "This web app has been used and is still been used by students awaiting admission into the university to test their academic level of preparation and readiness. Access code to access the quiz page is (CJ22002)",
+    desc: "This web app has been used and is still being used by students awaiting admission into the university to test their academic level of preparation and readiness. Access code to access the quiz page is (CJ22002)",
     role: ["React", "HTML/CSS"],
     url: "https://quiz-chosen2730.vercel.app/",
     image: "Images/quiz.png",
