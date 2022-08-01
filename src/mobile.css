@@ -157,6 +157,10 @@
   .image-cont::after {
     transform: translate(-5%, -20%);
   }
+  #testimonial {
+    margin: 1rem auto;
+    padding: 1rem;
+  }
   .testimonial-header {
     font-size: 1.2rem;
 
@@ -172,9 +176,6 @@
   .role-cont {
     grid-template-columns: 1fr 1fr;
   }
-  .image-cont {
-    display: none;
-  }
   .skill-icon-cont {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -182,6 +183,9 @@
   }
 }
 @media (max-width: 313px) {
+  .image-cont {
+    display: none;
+  }
   .skill-icon-cont {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
