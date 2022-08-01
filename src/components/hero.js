@@ -9,10 +9,10 @@ const Hero = () => {
           <h5>- Hello,</h5>
           <h1 className='name'>I'm Simon</h1>
           <p className='short_info'>
-            A Junior React developer with skills in HTML5, CSS3, Javascript
-            using some cool ES6 features, Bootstrap, etc. In the space of 2+
-            years, I have collaborated with other frontend developers and
-            backend developers to build cool projects.
+            A Frontend developer who uses latest technologies to build
+            responsive and interactive web applications and interfaces. I am
+            passionate about understanding the technologies behind webbuild,
+            webflow and willing to learn new stacks necessary on a job.
           </p>
           <div className='btn-container'>
             <button className='btn btn-view'>

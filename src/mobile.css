@@ -43,9 +43,11 @@
     width: 100%;
   }
 
-  .links li,
-  .icons li {
-    padding: 0.75rem 0rem;
+  .links li a {
+    padding: 0;
+  }
+  .links li {
+    margin: 1rem 0;
   }
   .icons li {
     margin-right: 1rem;
@@ -80,6 +82,14 @@
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+  .skill-icon-cont {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  .skill-icon {
+    padding: 1rem;
+  }
   .testimonial-cont {
     display: grid;
     grid-template-columns: 1fr;
@@ -105,8 +115,6 @@
   .contact-main {
     grid-template-columns: 1fr;
   }
-}
-@media (max-width: 684px) {
   .project-main {
     width: 90%;
   }
@@ -123,14 +131,6 @@
     background-repeat: none;
     background-size: cover;
     background-attachment: fixed;
-  }
-  .skill-icon-cont {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-  }
-  .skill-icon {
-    padding: 1rem;
   }
   .service-cont {
     grid-template-columns: 1fr;
@@ -169,9 +169,6 @@
     font-size: 0.85rem;
     padding: 1rem;
   }
-}
-
-@media (max-width: 380px) {
   .role-cont {
     grid-template-columns: 1fr 1fr;
   }

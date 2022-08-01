@@ -1,7 +1,7 @@
 import React from "react";
 import { MdOutlineGraphicEq } from "react-icons/md";
 import { SiNodedotjs } from "react-icons/si";
-import { FcAdvertising } from "react-icons/fc";
+import { FaWordpressSimple } from "react-icons/fa";
 import { skill } from "./../data";
 
 const Services = () => {
@@ -14,8 +14,9 @@ const Services = () => {
           <SiNodedotjs className='icon' />
           <h2>Web Development</h2>
           <p className='service-info'>
-            I build responsive and dynamic website, which you can use as a
-            portfolio, to boost your online presence, for business etc.
+            I build responsive and dynamic website majorly using javascript
+            frameworks for companies, organizations and individuals using latest
+            web technologies.
           </p>
         </div>
         <div className='service two'>
@@ -28,13 +29,12 @@ const Services = () => {
           </p>
         </div>
         <div className='service three'>
-          <FcAdvertising className='icon' />
-          <h2>Digital Marketting (In training...)</h2>
+          <FaWordpressSimple className='icon' />
+          <h2>CMS Website/blog Creation</h2>
           <p className='service-info'>
-            A business or venture cannot prosper if the audience is not right. I
-            create a channel on the web where you can reach out your service,
-            idea, product, what have you to the internet community so your right
-            client can locate you.
+            Using tools like Wordpress, Blogger, Wix, I build content management
+            websites and blogs for individuals, ecommerce, bloggers etc. to
+            promote online presence, boost SEO and for other purposes.
           </p>
         </div>
       </div>

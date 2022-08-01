@@ -42,7 +42,7 @@ const Testimonials = () => {
   };
   return (
     <main id='testimonial'>
-      <h1 className='testimonial-header'>Testimonials</h1>
+      <h1 className='testimonial-header'>Reviews</h1>
 
       <div className='testimonial-cont'>
         <div className='image-cont'>

@@ -80,4 +80,5 @@ export const skill = [
   { image: "Images/git.png", skill: "Git" },
   { image: "Images/next.png", skill: "NextJS" },
   { image: "Images/tail.png", skill: "TailWind CSS" },
+  { image: "Images/redux.png", skill: "Redux" },
 ];

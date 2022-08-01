@@ -25,6 +25,7 @@ html {
   display: flex;
   color: #fff;
   align-items: baseline;
+  justify-content: space-between;
 }
 .navbrand {
   font-size: 1.5rem;
@@ -43,7 +44,6 @@ html {
   font-size: 1.5rem;
 }
 .nav-cont {
-  width: 32%;
   align-items: center;
 }
 .nav-right {
@@ -201,8 +201,8 @@ html {
   width: 100%;
 }
 .skill-icon img {
-  width: 3rem;
-  object-fit: cover;
+  width: 3.5rem;
+  object-fit: contain;
 }
 .skill-icon h5 {
   font-size: 0.75rem;
@@ -214,6 +214,10 @@ html {
   text-transform: capitalize;
   transition: all 0.5s ease-in-out;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .skill-icon:hover {
   box-shadow: 0 0 30px #939393;
