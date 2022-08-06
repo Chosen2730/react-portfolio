@@ -30,7 +30,7 @@ const Projects = () => {
                   })}
                 </div>
                 <div className='visit'>
-                  <a href={url}>
+                  <a href={url} target='_blank' rel='noopener noreferrer'>
                     Visit site <BsBoxArrowUpRight />
                   </a>
                 </div>
