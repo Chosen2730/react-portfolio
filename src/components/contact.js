@@ -16,27 +16,47 @@ const Contact = () => {
         <div className='socia'>
           <ul className='icons'>
             <li>
-              <a href='https://wa.me/2348132157321'>
+              <a
+                href='https://wa.me/2348132157321'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <BsWhatsapp />
               </a>
             </li>
             <li>
-              <a href='https://twitter.com/Robinson_Simon_'>
+              <a
+                href='https://twitter.com/Robinson_Simon_'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <BsTwitter />
               </a>
             </li>
             <li>
-              <a href='https://github.com/Chosen2730'>
+              <a
+                href='https://github.com/Chosen2730'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <BsGithub />
               </a>
             </li>
             <li>
-              <a href='https://www.linkedin.com/in/robinson-simon-a35bb9194/'>
+              <a
+                href='https://www.linkedin.com/in/robinson-simon-a35bb9194/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <BsLinkedin />
               </a>
             </li>
             <li>
-              <a href='mailto:patiencesimoniseoluwa@gmail.com'>
+              <a
+                href='mailto:patiencesimoniseoluwa@gmail.com'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <SiGmail />
               </a>
             </li>

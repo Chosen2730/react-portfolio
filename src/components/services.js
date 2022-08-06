@@ -52,8 +52,10 @@ const Services = () => {
           })}
         </div>
         <a
-          href='https://docs.google.com/document/d/13WFgVRbY2-Fcgrl18msACLGMiI3fbo7-d47SBtr8ZEk/edit?usp=sharing'
+          href='https://drive.google.com/file/d/1lIIJi11IamY1KBzVS1QQdo0IGpQpgr64/view?usp=sharing'
           className='resume'
+          target='_blank'
+          rel='noopener noreferrer'
         >
           View Resume
         </a>
